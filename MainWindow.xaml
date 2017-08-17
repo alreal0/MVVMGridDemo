@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" ItemsSource="{Binding ItemDatas,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"  HorizontalAlignment="Left" Margin="57,59,0,0" VerticalAlignment="Top" Height="173" Width="320">
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" ItemsSource="{Binding ItemDatas}"  HorizontalAlignment="Left" Margin="57,59,0,0" VerticalAlignment="Top" Height="173" Width="320">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Title" Width="100" Binding="{Binding Title}" />
                 <DataGridTextColumn Header="Content" Width="200" Binding="{Binding Content}"/>
